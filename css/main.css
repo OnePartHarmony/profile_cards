@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+    margin: 0;
+    font-family: Helvetica;
+    text-align: center;
+  }
+
+#container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+  }
+
+#headShot {
+    background: white;
+    flex: 5;
+  }
+
+#isOnline {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: rgb(241, 241, 241);
+}
+
+#rating {
+    background: rgb(241, 241, 241);
+    flex: 2;
+  }
+
+#price {
+    background: white;
+    flex: 3;
+  }
+
+#buttons {
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+}
+
+#callButton {
+    flex: 1;
+    background: rgb(91, 203, 126)
+  }
+
+#chatButton {
+    flex: 1;
+    background: rgb(80,181, 113);
+  }
