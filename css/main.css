@@ -16,25 +16,57 @@ body {
   }
 
 #headShot {
+    gap: 0px;
     background: white;
     flex: 5;
   }
 
+img {
+  position: relative;
+  height: 50%;
+  border-radius: 50%;
+  border: 6px solid rgb(91, 203, 126);
+  top: 20%;
+  align: center;
+}
+
+h1 {
+  position: relative;
+  font-size: 200%;
+  top: 20%;
+}
+
 #isOnline {
     position: absolute;
     top: 0;
-    right: 0;
+    right: 1em;
     color: rgb(241, 241, 241);
+    font-size: 125%;
 }
 
 #rating {
     background: rgb(241, 241, 241);
     flex: 2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .fas {
+    color: rgb(239, 208, 73);
+    
+  }
+
+  .fas:nth-child(5) {
+    color: rgb(199, 199, 199);
   }
 
 #price {
     background: white;
     flex: 3;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
   }
 
 #buttons {
@@ -45,10 +77,21 @@ body {
 
 #callButton {
     flex: 1;
-    background: rgb(91, 203, 126)
+    background: rgb(91, 203, 126);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
   }
 
 #chatButton {
     flex: 1;
     background: rgb(80,181, 113);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .button {
+    color: white;
+
   }
